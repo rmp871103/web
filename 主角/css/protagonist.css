@@ -1,0 +1,131 @@
+/* main */
+main
+{
+    width: 100%;
+}
+.Introduction
+{
+    display: none;
+    /* display: flex; */
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.package
+{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    align-items: center;
+}
+.Introduction img
+{
+    width:30%;
+    height: auto;
+    margin-left: 20%;
+}
+.content
+{
+    width: 40%;
+    height: auto;
+}
+.Introduction h1{
+    color: white;
+    font-weight: 100;
+    margin:15px 0;
+}
+.Introduction h2{
+    color: white;
+    margin:15px 0;
+}
+#main_title
+{
+    display: flex;
+    align-items: center;
+}
+#voice_btn
+{
+    display: block;
+    background-image: url("/img/character-btn-voice.png");
+    width: 32px;
+    height: 32px;
+    border: none;
+}
+.Introduction p
+{
+    color: white;
+    word-wrap: normal;
+    margin:15px 0;
+}
+.close
+{
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: none;
+}
+.characters
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.characters__item
+{
+    width: calc(100%/4);
+    height: auto;
+    position: relative;
+    margin: 15px 10px;
+}
+
+
+#Joseph
+{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+#Caesar
+{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+#Lisa
+{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+#Stroheim
+{
+    width:100%;
+    height:auto;
+    background-color: white;
+}
+.overlay
+{
+    text-align: center;
+    display:none;
+    background: rgb(0, 0, 0, .65);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    widows:100%;
+    padding: 15px;
+    white-space: normal;
+    width: 100%;
+    /* box-sizing: border-box; */
+    pointer-events: none;
+    font-weight: 100;
+    /* display: inherit; */
+}
+.overlay h3{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
