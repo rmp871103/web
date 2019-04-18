@@ -1,0 +1,97 @@
+/*container-area*/
+.container-area{
+    margin: 0  auto;
+    background-color:rgb(22, 22, 22);
+    max-width:1200px;
+    /* background-color: rgb(0, 162, 255); */
+    padding: 30px;
+}
+
+/*character*/
+
+
+.character-list{
+    display:flex;
+    padding: 15px 0px;
+    margin-left: 100px;
+   
+}
+
+.btn {
+    box-sizing: border-box;
+    margin: 0 100px;
+    color: azure;
+}
+
+.second-field{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:20px; 
+}
+
+
+.character_describtion{
+    width: 55%;
+    font-size:25px;
+    color:gainsboro;
+    margin-left: 30px;   
+    margin-top: 0;
+}
+
+.character_dubber_name{
+    margin: 0;
+    padding-top:5; 
+}
+.character_dubber{
+    display: flex;
+    text-align: center;
+}
+
+.character_btn_voice{
+    
+    display: block;
+    padding:10 20;
+}
+
+.character_story{
+    text-indent:2em; /*開頭空兩格*/
+}
+
+.character_line{
+    padding-top: 30px;
+    text-align: center;
+    bottom: 0;
+}
+
+.character_sign{
+    padding-left: 100px;
+    text-align: right;
+}
+
+/*overlay*/
+.overlay{
+    display: none;
+    background: rgba(0, 0, 0, .65);
+    color:#fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    widows: 100;
+    padding: 10px;
+    box-sizing: border-box;
+    pointer-events:none;
+}
+
+.overlay h3{
+    font-weight:100;
+    margin:0;
+    padding:0;
+}
+
+.overlay p{
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+

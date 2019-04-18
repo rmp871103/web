@@ -1,0 +1,150 @@
+/*Custom fonts*/
+@font-face {
+	font-family: 'RaleWay';
+	src: url('fonts/raleway_thin-webfont.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('fonts/raleway_thin-webfont.ttf') format('tff');
+	/* Safari, Android, iOS */
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+/* Global Style */
+body {
+    font-family: 'Microsoft JhengHei';
+    height: 100%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(22, 22, 22);
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin:0;
+}
+
+
+
+/* Header Style */
+.header{
+    display: flex;
+    flex-direction: row;
+
+    background-image: url("../img/star.jpg");
+    height:70px;
+}
+
+
+/*LOGO*/
+.header-logo{
+    padding-left: 150px;
+    padding-right: 40;
+}
+
+
+
+.header-logo-picture{
+    padding-top: 5;
+    height: 70;
+}
+
+
+
+/*toolbar*/
+.header-toolbor{
+
+}
+
+.nav{
+     margin-top : 10px;
+}
+
+.nav-list{  
+    display:flex;
+    margin: 10px 135px  ;
+}
+
+.nav-list-item{
+    list-style: none;     
+    height: 40px;  
+    /* background-color:red; */
+
+}
+
+
+.nav-list-item-link{
+    font-size: 28px;
+    display: block;
+    /* background-color: blue; */
+    text-decoration: none;
+    color:gainsboro;
+    margin-right: 95px;    
+    text-align: center;
+    width: 120;
+}
+
+/* sublist */
+.nav-sublist{
+    position: absolute;
+    background-color:#221c1c;
+    margin: 0px;
+    padding: 0px;
+    display:none;
+    width: 120;
+}
+
+.nav-sublist-item{
+    text-align: center;
+    font-size: 29px;
+} 
+
+.nav-sublist-item-link{
+
+}
+
+
+/*footer*/
+.footer{
+    display: flex;
+    color:gainsboro;
+    background-color: rgba(104, 97, 97, 0.856);;
+    height:  70px;
+    width: auto;
+    margin-bottom: 0;
+    padding-top: 10;
+}
+
+.footer-text{
+    margin-top:5px;
+    text-align: center;
+    /* background: blue; */
+    margin-right: 425;
+    margin-left:485;
+    line-height:1.2em;
+}
+
+
+.facebook_icon{
+    padding: 10 30;
+    /* background-color: green; */
+    height:90%;
+    padding-right: 30;
+}
+
+.ig_icon{
+    padding: 10 30;
+    /* background-color: green; */
+    height:90%;
+    padding-right: 30;
+}
+.bahamut_icon{
+    padding: 10 30;
+    /* background-color: green; */
+    height:90%;
+    padding-right: 30;
+}
