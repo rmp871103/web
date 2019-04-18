@@ -1,0 +1,111 @@
+html{
+    background-color: #000000;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+}
+.container{
+    width: 1280px;
+    height: 720px;
+    margin-left:300px;
+    margin-top:100px;
+}
+.navigator{
+    display: flex;
+    max-width: 1280px;
+    max-height: 720px;
+    background-image: url("../img/bg.jpg");
+}
+.left{
+    margin-top: 8px;
+    margin-left:-25px;
+    padding: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 600px;
+}
+.middle{
+    margin-top: 6px;
+    margin-bottom: -5px;
+    margin-left: 1px;
+    padding: 0px 0px;
+    height: 720px;
+    width: 240;
+}
+.right{
+    margin-top: 8px ;
+    margin-left:-2px;
+    padding: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 440px;
+}
+.nav-item{
+    margin:0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+}
+.nax-item2{
+    margin-top:3px;
+    margin-left:12px;
+}
+.nax-item3{
+    margin-top:4px;
+    margin-left:3px;
+}
+.nax-item4{
+    margin:0px 0px;
+}
+.nax-item5{
+    margin-top:1px;
+    margin-left:-4px;
+}
+.nax-item6{
+    margin-top:10px;
+    margin-left:15px;
+}
+.nax-item7{
+    margin-top:-6px;
+    margin-left:0px;
+}
+.nax-item8{
+    margin-top:-12px;
+    margin-left:7px;
+}
+
+
+.nav-item-link{
+    margin: 0px 0px;
+    position:relative;
+    display: block;
+}
+.nav-item-img{
+    width: 100%;
+}
+.overlay{
+    display:none;
+    background:#00000098;
+    color:rgb(255, 255, 255);
+    position:absolute;
+    bottom:0;
+    left:0;
+	z-index: 100;
+	widows: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	pointer-events: none;
+	font-weight: 100;
+}
+.overlay h3{
+    font-weight: 100;
+    font-size: 100px;
+
+    margin:0;
+    padding: 0;
+}
