@@ -43,11 +43,11 @@ $(function(){
     $("div.main_picture").click(function(){
 
         if (document.getElementById('P1')){
-            $(this).children('img').attr("src",'./img/桑坦納2.jpg');
+            $(this).children('img').attr("src",'./img/sandana2.jpg');
             document.getElementById('P1').id = 'P2';
         }
         else if(document.getElementById('P2')){
-            $(this).children('img').attr("src",'./img/桑坦納1.jpg');
+            $(this).children('img').attr("src",'./img/sandana1.jpg');
             document.getElementById('P2').id = 'P1';           
         }
     });
