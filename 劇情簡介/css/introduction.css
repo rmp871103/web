@@ -1,0 +1,23 @@
+.container-fluid{
+    display: block;
+    background-image: url("../img/JOJO.png");
+    padding-bottom: 76px;
+}
+
+
+/*container-area*/
+.container-area{
+    margin: 0 auto;
+    /* background-color:red; */
+    max-width:1200px;
+    max-height: auto;
+    padding: 30px;
+}
+.main-area{
+    color: rgba(255, 255, 255); 
+    text-indent:2em; /*開頭空兩格*/
+    font-size: 20px;
+    line-height: 35px; 
+    padding-right: 350;
+}
+

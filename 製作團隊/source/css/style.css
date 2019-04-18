@@ -1,0 +1,103 @@
+/*Custom fonts*/
+@font-face {
+	font-family: 'RaleWay';
+	src: url('fonts/raleway_thin-webfont.woff') format('woff'),
+		/* Pretty Modern Browsers */
+		url('fonts/raleway_thin-webfont.ttf') format('tff');
+	/* Safari, Android, iOS */
+}
+
+/* Global Style */
+html{
+    background-color:#111010;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    max-width:auto;
+}
+
+/* Header Style */
+.header{
+    display: flex;
+    flex-direction: row;
+    color:gainsboro;
+    background-image: url("../img/star.jpg");
+    height:70px;
+}
+
+.header-title{
+    font-size:60px;
+    margin-left:330px;
+    margin-top:5px;
+    width :280px;
+    
+}
+
+.nav{
+     margin-top : 10px;
+}
+
+.nav-list{  
+    display:flex;
+    margin: 10px 20px;    
+}
+
+.nav-list-item{
+    list-style: none;     
+    height: 40px;
+    width: 160px;
+    /* margin: 10px;    */
+    /* margin-left:30px; */
+
+}
+
+
+.nav-list-item-link{
+    font-size: 28px;
+    display: block;
+    text-decoration: none;
+    color:gainsboro;
+    text-align: center;
+    /* padding: 10px 20px; */
+}
+
+/* sublist */
+.nav-sublist{
+    position: absolute;
+    background-color:#221c1c;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+
+
+.nav-sublist-item-link{
+    text-decoration: none;
+} 
+/* list-hover */
+.nav-list-item-link:hover{
+    background-color: grey;
+}
+
+.nav-list-item:hover .nav-sublist{
+    display: block;
+}
+
+.nav-list-item:hover > .nav-list-item-link{
+    background-color: grey;
+}
+/*container-area*/
+.container-area{
+    display: flex;
+    margin: 20px  auto;
+    background-color:rgb(19, 17, 17);
+    max-width:1200px;
+    /* background-color: rgb(0, 162, 255); */
+    padding: 30px;
+}
