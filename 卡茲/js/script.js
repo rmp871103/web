@@ -43,11 +43,11 @@ $(function(){
     $("div.main_picture").click(function(){
 
         if (document.getElementById('P1')){
-            $(this).children('img').attr("src",'./img/卡茲2.jpg');
+            $(this).children('img').attr("src",'./img/cars2.jpg');
             document.getElementById('P1').id = 'P2';
         }
         else if(document.getElementById('P2')){
-            $(this).children('img').attr("src",'./img/卡茲1.jpg');
+            $(this).children('img').attr("src",'./img/cars1.jpg');
             document.getElementById('P2').id = 'P1';           
         }
         
