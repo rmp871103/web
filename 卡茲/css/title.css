@@ -91,6 +91,8 @@ body {
 /* sublist */
 .nav-sublist{
     position: absolute;
+    z-index:300;
+    list-style: none;
     background-color:#221c1c;
     margin: 0px;
     padding: 0px;
